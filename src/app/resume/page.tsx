@@ -8,6 +8,8 @@ import {
   FaNodeJs,
   FaPhp,
   FaVuejs,
+  FaWordpress,
+  FaBootstrap,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs, SiNuxtdotjs } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -20,8 +22,11 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area";
 const about = {
   title: "About me",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit optio obcaecati officiis laboriosam aspernatur quaerat vitae minima!",
+  description: `Innovative Full Stack Developer with a strong foundation in web and mobile application development.
+Skilled in modern frontend and backend technologies, with a track record of delivering high-quality
+solutions in fast-paced environments. Committed to continuous learning and leveraging new
+technologies to solve complex problems and enhance user experiences. Seeking opportunities to
+contribute technical expertise and collaborative skills to a dynamic development team.`,
   info: [
     {
       fieldName: "Name",
@@ -30,10 +35,6 @@ const about = {
     {
       fieldName: "Phone",
       fieldValue: "(+216 44 311 470)",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "hafedhdhouib@gmail.com",
     },
     {
       fieldName: "Experience",
@@ -53,7 +54,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit optio obcaecati officiis laboriosam aspernatur quaerat vitae minima!",
+    "As a Full Stack Developer, I developed a WordPress plugin for financial management, automated client engagement with a WhatsApp plugin, and implemented targeted email marketing strategies using technologies like Next.js, Prisma, and PHP. I enhanced backend applications with Spring Boot, integrated Angular for seamless frontend-backend communication, merged and developed mobile apps with Ionic and Flutter, and published them on major app stores. During my internships, I created a B2B and B2C e-commerce platform using Nuxt.js and Node.js, and customized Mantis Bug Tracker with Microsoft Power Platform.",
   items: [
     {
       company: "Sofflex",
@@ -80,12 +81,11 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My educations",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit optio obcaecati officiis laboriosam aspernatur quaerat vitae minima!",
+  description: "",
   items: [
     {
-      institution: "Engineering Degree",
-      degree: "International Institute of Technology",
+      institution: "International Institute of Technology",
+      degree: "Engineering Degree",
       duration: "September 2023 - Present",
     },
     {
@@ -98,8 +98,7 @@ const education = {
 };
 const skills = {
   title: "My skills",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit optio obcaecati officiis laboriosam aspernatur quaerat vitae minima!",
+  description: "",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -132,6 +131,18 @@ const skills = {
     {
       icon: <SiNuxtdotjs />,
       name: "NuxtJS",
+    },
+    {
+      icon: <FaPhp />,
+      name: "PHP",
+    },
+    {
+      icon: <FaWordpress />,
+      name: "Wordpress",
+    },
+    {
+      icon: <FaBootstrap />,
+      name: "FaBootstrap",
     },
   ],
 };
@@ -205,12 +216,14 @@ const Resume = () => {
                             "
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.degree}
+                          <h3 className="text-sm max-w-[260px] min-h-[60px] text-center lg:text-left">
+                            {item.institution}
                           </h3>
                           <div className="flex items-center gap-3">
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.institution}</p>
+                            <p className="text-sm text-white/60">
+                              {item.degree}
+                            </p>
                           </div>
                         </li>
                       );

@@ -8,28 +8,21 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit anet consectetur adipisicing Ait.Eaque tenetur.",
+      "We offer comprehensive services in web development, specializing in designing and developing modern, responsive websites that exceed client expectations. Our expertise includes integrating advanced and custom features seamlessly into the user interface. Additionally, we excel in converting Figma designs into high-quality HTML and CSS code, ensuring pixel-perfect rendering across various browsers and devices.",
     href: "",
   },
   {
     num: "02",
-    title: "Web Development",
+    title: "Mobile Development",
     description:
-      "Lorem ipsum dolor sit anet consectetur adipisicing Ait.Eaque tenetur.",
+      "We offer expert services in mobile application development, delivering native and cross-platform solutions tailored to your business needs. From conceptualization to deployment, we ensure your app meets industry standards and user expectations. We handle everything from initial development to publishing on major platforms like the Google Play Store, App Store, and AppGallery, maximizing your app's reach and impact.",
     href: "",
   },
   {
     num: "03",
-    title: "Web Development",
+    title: "Deployment on VPS Linux",
     description:
-      "Lorem ipsum dolor sit anet consectetur adipisicing Ait.Eaque tenetur.",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit anet consectetur adipisicing Ait.Eaque tenetur.",
+      "We offer comprehensive deployment services for Linux VPS servers. This includes configuring and managing distributions such as Ubuntu, CentOS, and Debian. Our services also extend to installing and optimizing web servers like Nginx and Apache, crucial for securely hosting robust applications. Additionally, we integrate Let's Encrypt SSL certificates to ensure your websites are protected with HTTPS encryption, enhancing user trust and data security. Our focus on deployment and management ensures high availability and performance for your web applications, supported by meticulous backup strategies and robust security measures to safeguard your data.",
     href: "",
   },
 ];

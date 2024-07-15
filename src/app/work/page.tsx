@@ -18,52 +18,48 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Full stack",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente hic aspernatur ipsam nam in asperiores cumque veritatis.",
+      "Care-up is an online appointment platform that connects patients in need of home care with healthcare professionals.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
-      { name: "Html 5" },
-      { name: "Javascript" },
+      { name: "Angular" },
+      { name: "SpringBoot" },
     ],
-    image: "/assets/work/thumb1.png",
-    live: "",
+    image: "/assets/work/careup.png",
+    live: "https://www.careup.tn",
     github: "",
   },
   {
     num: "02",
-    category: "frontend",
+    category: "Full Stack FreeLance",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente hic aspernatur ipsam nam in asperiores cumque veritatis.",
+      "Developed and maintained the Association Innocence website, ensuring a user-friendly and responsive design.",
     stack: [
       { name: "Html 5" },
       { name: "Css 3" },
-      { name: "Html 5" },
       { name: "Javascript" },
+      { name: "NuxtJS" },
+      { name: "Firebase" },
     ],
-    image: "/assets/work/thunb2.png",
-    live: "",
+    image: "/assets/work/takwini-yahmini.png",
+    live: "https://takwini-yahmini.com/",
     github: "",
   },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente hic aspernatur ipsam nam in asperiores cumque veritatis.",
-    stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
-      { name: "Html 5" },
-      { name: "Next.js" },
-    ],
-    image: "/assets/work/thunb3.png",
-    live: "",
-    github: "",
-  },
+  // {
+  //   num: "03",
+  //   category: "Mobile Application",
+  //   title: "project 3",
+  //   description:
+  //     "Care-up is an online appointment platform that connects patients in need of home care with healthcare professionals.",
+  //   stack: [{ name: "Flutter" }, { name: "SpringBoot" }],
+  //   image: "/assets/work/thunb3.png",
+  //   live: "",
+  //   github: "",
+  // },
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
@@ -156,7 +152,7 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-fill"
                           alt=""
                         />
                       </div>
