@@ -26,6 +26,7 @@ const config = {
       fontFamily: {
         primary: "var(---font-jetBrainsMono)"
       },
+      
       colors: {
         primary: "#1c1c22",
         accent: {

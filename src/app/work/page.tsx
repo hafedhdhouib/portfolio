@@ -19,7 +19,7 @@ const projects = [
   {
     num: "01",
     category: "Full stack",
-    title: "project 1",
+    title: "Project 1",
     description:
       "Care-up is an online appointment platform that connects patients in need of home care with healthcare professionals.",
     stack: [
@@ -35,7 +35,7 @@ const projects = [
   {
     num: "02",
     category: "Full Stack FreeLance",
-    title: "project 2",
+    title: "Project 2",
     description:
       "Developed and maintained the Association Innocence website, ensuring a user-friendly and responsive design.",
     stack: [
@@ -49,17 +49,50 @@ const projects = [
     live: "https://takwini-yahmini.com/",
     github: "",
   },
-  // {
-  //   num: "03",
-  //   category: "Mobile Application",
-  //   title: "project 3",
-  //   description:
-  //     "Care-up is an online appointment platform that connects patients in need of home care with healthcare professionals.",
-  //   stack: [{ name: "Flutter" }, { name: "SpringBoot" }],
-  //   image: "/assets/work/thunb3.png",
-  //   live: "",
-  //   github: "",
-  // },
+  {
+    num: "03",
+    category: "WordPress Plugin",
+    title: "Accounting Plugin",
+    description:
+      "Developed a WordPress accounting plugin to manage and track financial transactions.",
+    stack: [{ name: "PHP" }, { name: "WordPress" }, { name: "MySQL" }],
+    live: "",
+    github: "",
+    image: "/assets/work/plugin-wordpress.png",
+  },
+  {
+    num: "04",
+    category: "WordPress Plugin",
+    title: "WhatsApp Messaging Plugin",
+    description:
+      "Developed a plugin for sending WhatsApp messages to clients inactive for over 60 days.",
+    stack: [{ name: "PHP" }, { name: "WordPress" }, { name: "WhatsApp API" }],
+    live: "",
+    github: "",
+    image: "/assets/work/plugin-wordpress.png",
+  },
+  {
+    num: "05",
+    category: "WordPress Plugin",
+    title: "Email Export Plugin",
+    description:
+      "Developed a plugin to export email addresses from the website to a CSV file.",
+    stack: [{ name: "PHP" }, { name: "WordPress" }, { name: "MySQL" }],
+    live: "",
+    github: "",
+    image: "/assets/work/plugin-wordpress.png",
+  },
+  {
+    num: "06",
+    category: "Mailing System",
+    title: "Mailing Website",
+    description:
+      "Developed a mailing system website using Next.js and Prisma to manage, send newsletters, and list emails imported from CSV files.",
+    stack: [{ name: "Next.js" }, { name: "Prisma" }, { name: "Node.js" }],
+    live: "",
+    github: "",
+    image: "",
+  },
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
