@@ -16,9 +16,7 @@ export const metadata: Metadata = {
     "Explore Hafedh's portfolio showcasing skills in full stack development, including React.js, Node.js, and more.",
   keywords:
     "Hafedh, full stack developer, React.js, Node.js, web development, portfolio",
-  metadataBase: new URL(
-    "https://master--wonderful-sunburst-900064.netlify.app/"
-  ),
+  metadataBase: new URL("https://www.hafedhdhouib.site/"),
 };
 
 export default function RootLayout({
